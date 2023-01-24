@@ -57,7 +57,7 @@ c) `rotate.py`: This file takes an image as input and rotates it based on the pr
 <b>Fig. (c)</b>. Rotate Operation. </p>
 &nbsp;
 
-d) `rescale.py`: This file takes an image as input and rescales it based on the provided arguments. Declare a class `RotateImage()` for performing the operation. 
+d) `rescale.py`: This file takes an image as input and rescales it based on the provided arguments. Declare a class `RescaleImage()` for performing the operation. 
 
 &nbsp;
 <p align="center">
