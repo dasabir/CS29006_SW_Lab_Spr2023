@@ -6,9 +6,16 @@ In this assignment we will deal with **Image Captioning**. Image Captioning is t
 
 A python package means that one can install the package in the python environment and can import the modules in any python script, irrespective of the location of the script. Creating a python package is fairly easy, just follow the steps [here](https://packaging.python.org/tutorials/packaging-projects/).
 
-Note: To install the dependencies you need to run the following command: `pip install -r requirements.txt`
+## Installation instructions
 
-The details of each of the files/folders are as follows:
+Note: To install the dependencies you need to run the following commands:
+ - `pip install -r requirements.txt`
+ - `python3 -m spacy download en_core_web_sm`
+ - Download LAVIS zip into the project directory from https://github.com/salesforce/LAVIS, Unzip LAVIS-main.zip and install lavis using the following commands 
+    * `cd LAVIS-main/`
+    * `pip install .`
+
+## File descriptions
 
 1. `main.py`: This is the main file which is to be called to execute the program. The main file calls the corresponding functions as needed while execution. The main file should call the appropriate function to prepare the dataset, then transform the images read, obtain the captions in the image by calling the captioner model, and then plot the obtained images by calling the appropriate functions from the package described below.
 
